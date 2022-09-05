@@ -29,13 +29,52 @@ ul{
     margin-top: 0.7rem;
 }
 
-button{
+#login{
     width: 70px;
     border-radius: 20px;
 }
 
 .container{
     background-image: url(../img/jumbo.png);
-    height: 600px;
-    background-size: cover;
+    height: 700px;
+    background-size: cover, contain;
+}
+
+section{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+h1{
+    padding: 15px;
+    font-size: 3rem;
+}
+
+p{
+    padding: 15px;
+    font-size:1.8rem;
+}
+
+.download_mac, .open_browser{
+    padding: 0.7rem;
+    border-radius: 30px;
+    margin: 0 7px;
+    border-style: none;
+}
+
+.open_browser{
+    background-color: #23272A;
+    color: whitesmoke;
+}
+
+.open_browser:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #23272A;
+}
+
+.download_mac:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
 }
