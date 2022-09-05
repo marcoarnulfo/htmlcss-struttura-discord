@@ -85,3 +85,17 @@ header{
 .logo{
     text-align: left;
 }
+
+.container_blue{
+    background-color: blue;
+    display: flex;
+}
+
+.img_pink{
+    background-color: palevioletred;
+    width: 55%;
+    margin: auto;
+    height: 400px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
