@@ -44,13 +44,13 @@ ul{
     background-image: url(../img/jumbo.png);
     height: 700px;
     background-size: cover, contain;
+    display: flex;
 }
 
 section{
     text-align: center;
     width: 45%;
     margin: auto;
-    padding-top: 200px;
 }
 
 h1{
@@ -86,8 +86,8 @@ h1{
 }
 
 .container{
-    width: 70%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 1980px;
     margin: auto;
 }
 
@@ -148,24 +148,41 @@ h1{
 
 /* #endregion col */
 
-img{
-    margin-left: 100px;
+.study_group{
+    margin-left: 20%;
 }
 
-.col_4, .col_8{
+.study{
+    text-align: center;
+}
+
+.col_6, .col_7{
     margin-top: 8rem;
 }
 
-.col_4{
+.luogo{
+    width: 30%;
     text-align: left;
+    margin-right: 20%;
     margin-top: 10rem;
 }
 
+.trovarsi{
+    width: 20%;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 10rem;
+}
+
+.voice_connect{
+    margin-left: 15%;
+}
+
 h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .spiegazione{
     font-size: 1.5rem;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 }
