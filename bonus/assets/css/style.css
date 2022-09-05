@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* #255EE9 */
+
 
 #site_header{
     background-color: #255EE9;
@@ -30,11 +30,17 @@ ul{
 }
 
 #login{
-    width: 70px;
+    padding: 0.6rem;
     border-radius: 20px;
+    border-style: none;
 }
 
-.container{
+#login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+.top_container{
     background-image: url(../img/jumbo.png);
     height: 700px;
     background-size: cover, contain;
@@ -52,7 +58,7 @@ h1{
     font-size: 3rem;
 }
 
-p{
+descrizione{
     padding: 15px;
     font-size:1.8rem;
 }
@@ -77,4 +83,89 @@ p{
 .download_mac:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* #region col */
+
+
+.col_1{
+    width: calc( (100% / 12) * 1);
+}
+
+.col_2{
+    width: calc( (100% / 12) * 2);
+}
+
+.col_3{
+    width: calc( (100% / 12) * 3);
+}
+
+.col_4{
+    width: calc( (100% / 12) * 4);
+}
+
+.col_5{
+    width: calc( (100% / 12) * 5);
+}
+
+.col_6{
+    width: calc( (100% / 12) * 6);
+}
+
+.col_7{
+    width: calc( (100% / 12) * 7);
+}
+
+.col_8{
+    width: calc( (100% / 12) * 8);
+}
+
+.col_9{
+    width: calc( (100% / 12) * 9);
+}
+
+.col_10{
+    width: calc( (100% / 12) * 10);
+}
+
+.col_11{
+    width: calc( (100% / 12) * 11);
+}
+
+.col_12{
+    width: calc( (100% / 12) * 12);
+}
+
+/* #endregion col */
+
+img{
+    margin-left: 100px;
+}
+
+.col_4, .col_8{
+    margin-top: 8rem;
+}
+
+.col_4{
+    text-align: left;
+    margin-top: 10rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.spiegazione{
+    font-size: 1.5rem;
+    padding-top: 3rem;
 }
