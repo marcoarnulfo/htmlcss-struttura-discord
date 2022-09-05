@@ -1,3 +1,41 @@
-body{
-    background-color: black;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #255EE9 */
+
+#site_header{
+    background-color: #255EE9;
+    display: flex;
+}
+
+nav{
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 4rem;
+    margin-top: 0.7rem;
+}
+
+button{
+    width: 70px;
+    border-radius: 20px;
+}
+
+.container{
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
 }
