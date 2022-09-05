@@ -4,8 +4,25 @@
     padding: 0;
 }
 
+:root{
+    --header_sfondo: #ADD8E6;
+    --header_nav: #DAA520;
+    --first_sfondo: #00008B;
+    --first_div: #EE82EE;
+    --main_col: #1E90FF;
+    --secondary_col: #FFC0CB;
+    --secondary_sfondo: #D3D3D3;
+    --big_div: #228B22;
+    --last_col: #F08080;
+    --bg_footer: #23272A;
+    --footer_col: #20B2AA;
+    --footer_button: #FFB6C1;
+    --last_div: #7FFFD4;
+
+}
+
 header{
-    background-color: lightblue;
+    background-color: var(--header_sfondo);
 }
 
 .container{
@@ -72,13 +89,14 @@ header{
 /* #endregion col */
 
 .link, .login, .logo{
-    background-color: orange;
+    background-color: var(--header_nav);
     padding: 0.5rem;
-    border: solid black 1px;
+    border: dashed black 2px;
 }
 
-.link{
+#nav_link{
     text-align: center;
+    background-color: var(--header_nav);
 }
 
 .login{
@@ -91,13 +109,14 @@ header{
 }
 
 .container_blue{
-    background-color: blue;
+    background-color: var(--first_sfondo);
     display: flex;
 }
 
 .img_pink{
-    background-color: palevioletred;
+    background-color: var(--first_div);
     width: 55%;
+    max-width: 1000px;
     margin: auto;
     height: 400px;
     margin-top: 2rem;
@@ -113,33 +132,77 @@ header{
     display: flex;
 }
 
-.col_8{
-    background-color: blueviolet;
-    border: black solid 1px;
+.col_8 {
+    background-color: var(--main_col);
+    border: black dashed 2px;
 }
 
 .col_4{
-    background-color: pink;
-    border: black solid 1px;
+    background-color: var(--secondary_col);
+    border: black dashed 2px;
 }
 
-.viola, .rosa{
+.blue, .rosa{
     margin-top: 2rem;
     margin-bottom: 2rem;
     height: 400px;
 }
 
 .container_grey{
-    background-color: lightgray;
+    background-color: var(--secondary_sfondo);
     display: flex;
 }
 
 .img_green{
-    background-color: green;
+    background-color: var(--big_div);
     width: 70%;
     margin: auto;
-    height: 800px;
+    height: 700px;
     margin-top: 2rem;
     max-width: 1200px;
-    
+    margin-bottom: 2rem;
+}
+
+
+
+.container_black{
+    background-color: var(--bg_footer);
+    border-bottom: solid white 1px;
+    display: flex;
+}
+
+.pink{
+    background-color: var(--last_col);
+}
+
+.light{
+    background-color: var(--footer_col);
+    border: dashed 2px white;
+}
+
+.pink, .light{
+    height: 600px;
+}
+
+.last{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.last_bar{
+    width: 70%;
+    background-color: var(--last_div);
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last_logo, .button{
+    background-color: var(--footer_button);
+    border: dashed 2px black;
+    padding: 0.3rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
 }
